@@ -15,7 +15,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Website | Glossary</title>
+    <title>Karthickology | Analytics</title>
     <link rel="icon" type="image/png" href="images/myfavicon.png">
 
     <style>
@@ -272,6 +272,273 @@
             .search-box {
                 max-width: 100%;
             }
+
+
+
+
+
+
+
+            
+            /* Image Styles - Add to your existing CSS */
+
+/* Analytics images inside annotation cards */
+            
+.image-container {
+  margin: 1rem 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.analytics-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.analytics-img:hover {
+  transform: scale(1.01);
+}
+
+.img-caption {
+  font-size: 0.7rem;
+  color: #64748b;
+  text-align: center;
+  padding: 0.5rem;
+  background: #f8fafc;
+  border-radius: 0 0 12px 12px;
+}
+
+/* Infographic showcase grid */
+.infographic-section {
+  background: white;
+  border-radius: 28px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border: 1px solid #e2e8f0;
+}
+
+.infographic-sub {
+  color: #64748b;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.infographic-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.infographic-card {
+  background: #f8fafc;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #eef2ff;
+}
+
+.infographic-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 30px -15px rgba(0,0,0,0.1);
+}
+
+.infographic-img-wrapper {
+  overflow: hidden;
+}
+
+.custom-infographic {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.infographic-card:hover .custom-infographic {
+  transform: scale(1.02);
+}
+
+.infographic-desc {
+  padding: 1.25rem;
+}
+
+.infographic-desc h4 {
+  margin: 0 0 0.5rem 0;
+  color: #0f172a;
+  font-size: 1.1rem;
+}
+
+.infographic-desc p {
+  color: #475569;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.design-note {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+}
+
+/* Custom metric summary cards with background images */
+.metric-summary-cards {
+  background: white;
+  border-radius: 28px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border: 1px solid #e2e8f0;
+}
+
+.metric-summary-cards h3 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.metric-showcase-custom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-card-custom {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.metric-card-custom:hover {
+  transform: translateY(-4px);
+}
+
+.metric-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.metric-overlay {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(135deg, rgba(15,23,42,0.85) 0%, rgba(30,41,59,0.9) 100%);
+  padding: 1.5rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+}
+
+.metric-number-large {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label-large {
+  font-size: 1rem;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.metric-compare {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.metric-row span {
+  color: #cbd5e1;
+}
+
+.metric-row strong {
+  color: #60a5fa;
+}
+
+.top-pages-list {
+  color: white;
+}
+
+.page-rank {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+}
+
+/* Experiment result images */
+.exp-image-container {
+  margin: 1rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0f172a;
+}
+
+.exp-result-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.exp-img-caption {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  text-align: center;
+  padding: 0.5rem;
+  background: #1e293b;
+}
+
+.ab-test .exp-result-img {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+/* Responsive adjustments for images */
+@media (max-width: 768px) {
+  .infographic-showcase {
+    grid-template-columns: 1fr;
+  }
+  
+  .metric-showcase-custom {
+    grid-template-columns: 1fr;
+  }
+  
+  .metric-card-custom {
+    min-height: 180px;
+  }
+  
+  .metric-number-large {
+    font-size: 2rem;
+  }
+}
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -291,9 +558,9 @@
                     <ul id="nav-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="topics.html">Topics</a></li>
-                        <li><a href="notes.html">Notes</a></li>
-                        <li><a href="glossary.html" class="active">Glossary</a></li>
-                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="notes.html">Designs</a></li>
+                        <li><a href="glossary.html" class="active">Analytics</a></li>
+                        <li><a href="resources.html">Experiments</a></li>
                         <li><a href="about.html">About</a></li>
                     </ul>
                 </nav>
@@ -301,58 +568,280 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="page-content">
-            <h1 class="page-title">Learning Glossary</h1>
-            <p>Look up definitions and explanations for important terms and concepts across various subjects. Use the
-                alphabet filter or search box to find specific terms.</p>
+    <!-- What I Learned This Week - Analytics Dashboard with Images -->
+<section class="weekly-insights-dashboard">
+  <div class="container">
+    <div class="dashboard-header">
+      <h2>📊 What I learned this week</h2>
+      <p class="subtitle">Data-driven discoveries & experiment outcomes</p>
+    </div>
 
-            <div class="glossary-header">
-                <div class="search-box">
-                    <input type="text" id="search-glossary" placeholder="Search for terms...">
-                </div>
-            </div>
-
-            <div class="alphabet-filter" id="alphabet-filter">
-                <span class="active" data-letter="all">All</span>
-                <!-- Alphabet letters will be populated by JavaScript -->
-            </div>
-
-            <div class="glossary-container" id="glossary-container">
-                <!-- Glossary items will be populated by JavaScript -->
-            </div>
-
-            <div style="text-align: center; margin-top: 2rem;">
-                <button class="add-term-btn" id="add-term-btn">
-                    <i class="fas fa-plus"></i> Suggest New Term
-                </button>
-            </div>
-
-            <div
-                style="margin-top: 3rem; padding: 1.5rem; background-color: #f0f7ff; border-radius: 8px; border-left: 4px solid #2575fc;">
-                <h3 style="color: #2c3e50; margin-bottom: 0.8rem;">Using the Glossary Effectively</h3>
-                <p style="color: #555; margin-bottom: 0.5rem;">A glossary is a valuable study tool:</p>
-                <ul style="margin-left: 1.5rem; color: #555;">
-                    <li>Refer to it when you encounter unfamiliar terms in your studies</li>
-                    <li>Use it to review key concepts before exams</li>
-                    <li>Create  terms for memorization</li>
-                    <li>Compare related terms to understand subtle differences</li>
-                </ul>
-            </div>
+    <!-- Annotations Section with Images -->
+    <div class="annotations-grid">
+      <div class="annotation-card spike">
+        <div class="annotation-badge">📈 Spike</div>
+        <h4>300 organic clicks in 7 days</h4>
+        <p>The blog post about <strong>keyword research</strong> got 300 organic clicks after I optimized its meta title</p>
+        
+        <!-- GA4 Comparison Image -->
+        <div class="image-container">
+          <img src="images/ga4-comparison-spike.jpg" alt="GA4 comparison showing click increase from 42 to 300" class="analytics-img" onerror="this.src='https://placehold.co/600x300/1e293b/60a5fa?text=GA4+Click+Comparison+Chart'">
+          <div class="img-caption">GA4 Comparison: Before (42 clicks) → After (300 clicks)</div>
         </div>
-    </main>
+        
+        <div class="ga4-compare">
+          <span class="before">Before: 42 clicks</span>
+          <span class="arrow">→</span>
+          <span class="after">After: 300 clicks</span>
+        </div>
+        <div class="insight-note">💡 Why: Added primary keyword to meta title + emotional trigger "Stop Guessing"</div>
+      </div>
+
+      <div class="annotation-card drop">
+        <div class="annotation-badge">📉 Drop</div>
+        <h4>Bounce rate increased to 68% on mobile</h4>
+        <p>After redesigning the hero section, mobile users left faster than expected.</p>
+        
+        <!-- Bounce Rate Chart Image -->
+        <div class="image-container">
+          <img src="images/bounce-rate-trend.jpg" alt="Bounce rate trend chart showing increase from 52% to 68%" class="analytics-img" onerror="this.src='https://placehold.co/600x300/1e293b/ef4444?text=Bounce+Rate+Trend+Line'">
+          <div class="img-caption">Weekly bounce rate trend (mobile segment)</div>
+        </div>
+        
+        <div class="ga4-compare">
+          <span class="before">Previous week: 52%</span>
+          <span class="arrow">→</span>
+          <span class="after">This week: 68%</span>
+        </div>
+        <div class="insight-note">💡 Next step: A/B test simplified mobile layout without auto-playing video.</div>
+      </div>
+
+      <div class="annotation-card pattern">
+        <div class="annotation-badge">🔍 Pattern</div>
+        <h4>Thursday & Friday traffic spikes consistently</h4>
+        <p>Users engage most with long-form guides mid-to-late week</p>
+        
+        <!-- Weekly Pattern Heatmap Image -->
+        <div class="image-container">
+          <img src="images/weekly-traffic-heatmap.jpg" alt="Weekly traffic heatmap showing Thursday/Friday spikes" class="analytics-img" onerror="this.src='https://placehold.co/600x300/1e293b/22c55e?text=Weekly+Traffic+Heatmap'">
+          <div class="img-caption">Hourly traffic distribution by day of week</div>
+        </div>
+        
+        <div class="ga4-compare">
+          <span class="metric">Avg session duration: 4:32 vs 2:15 on Mondays</span>
+        </div>
+        <div class="insight-note">💡 Action: Move case study launches to Thursdays.</div>
+      </div>
+    </div>
+
+    <!-- Custom Graphics Section - Your Infographic Designs -->
+    <div class="infographic-section">
+      <h3>🎨 My custom infographics & data visualizations</h3>
+      <p class="infographic-sub">Designed by me to tell the data story better</p>
+      
+      <div class="infographic-showcase">
+        <div class="infographic-card">
+          <div class="infographic-img-wrapper">
+            <img src="images/traffic-sources-infographic.jpg" alt="Traffic sources infographic - Organic, Direct, Referral breakdown" class="custom-infographic" onerror="this.src='https://placehold.co/800x500/0f172a/3b82f6?text=My+Traffic+Sources+Infographic'">
+          </div>
+          <div class="infographic-desc">
+            <h4>📊 Traffic sources breakdown (30 days)</h4>
+            <p>Organic: 47% | Direct: 28% | Referral: 15% | Social: 10%</p>
+            <span class="design-note">🎨 Custom pie chart with gradient segments — designed in Figma</span>
+          </div>
+        </div>
+
+        <div class="infographic-card">
+          <div class="infographic-img-wrapper">
+            <img src="images/conversion-funnel.jpg" alt="Conversion funnel visualization showing drop-off points" class="custom-infographic" onerror="this.src='https://placehold.co/800x500/0f172a/8b5cf6?text=Conversion+Funnel+Design'">
+          </div>
+          <div class="infographic-desc">
+            <h4>🔄 Conversion funnel analysis</h4>
+            <p>Landing: 5,200 → CTA click: 890 → Form submit: 234 → Thank you: 198</p>
+            <span class="design-note">🎨 Funnel chart with annotated drop-off reasons (my original design)</span>
+          </div>
+        </div>
+
+        <div class="infographic-card">
+          <div class="infographic-img-wrapper">
+            <img src="images/experiment-impact-dashboard.jpg" alt="Experiment impact comparison bar chart" class="custom-infographic" onerror="this.src='https://placehold.co/800x500/0f172a/10b981?text=A:B+Test+Results+Visualization'">
+          </div>
+          <div class="infographic-desc">
+            <h4>🧪 A/B test results visual</h4>
+            <p>Control (blue button): 2.1% CTR | Variation (orange button): 3.9% CTR</p>
+            <span class="design-note">🎨 Custom bar chart with statistical significance markers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Metric Summary Infographic (custom designed cards) -->
+    <div class="metric-summary-cards">
+      <h3>📐 Key metrics dashboard (my infographic design)</h3>
+      <div class="metric-showcase-custom">
+        <div class="metric-card-custom">
+          <img src="images/metric-growth-card.jpg" alt="Organic growth metric card design" class="metric-bg-img" onerror="this.src='https://placehold.co/300x200/1e293b/22c55e?text=+124%25+Organic+Growth'">
+          <div class="metric-overlay">
+            <div class="metric-number-large">+124%</div>
+            <div class="metric-label-large">Organic traffic growth</div>
+            <div class="metric-compare">vs previous 30 days</div>
+          </div>
+        </div>
+        
+        <div class="metric-card-custom">
+          <img src="images/engagement-metrics.jpg" alt="Engagement metrics dashboard" class="metric-bg-img" onerror="this.src='https://placehold.co/300x200/1e293b/3b82f6?text=Engagement+Metrics'">
+          <div class="metric-overlay">
+            <div class="metric-row">
+              <span>Avg. session duration:</span>
+              <strong>3:42</strong>
+            </div>
+            <div class="metric-row">
+              <span>Pages per session:</span>
+              <strong>2.8</strong>
+            </div>
+            <div class="metric-row">
+              <span>Bounce rate:</span>
+              <strong>54%</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="metric-card-custom">
+          <img src="images/top-pages-ranking.jpg" alt="Top performing pages graphic" class="metric-bg-img" onerror="this.src='https://placehold.co/300x200/1e293b/f59e0b?text=Top+Pages+Ranking'">
+          <div class="metric-overlay">
+            <div class="top-pages-list">
+              <div class="page-rank">1. Keyword guide — 1,280 clicks</div>
+              <div class="page-rank">2. GA4 setup — 820 clicks</div>
+              <div class="page-rank">3. SEO tools — 525 clicks</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="data-story-note">🎨 I designed these metric cards to communicate KPIs at a glance — each uses brand colors and custom typography. Replace placeholder images with your actual designs.</div>
+    </div>
+
+    <!-- Experiments Impact Tracker with Result Images -->
+    <div class="experiments-tracker">
+      <h3>🧪 Experiments Impact Tracker</h3>
+      <p class="tracker-sub">How each change influenced GA4 metrics over time + visual evidence</p>
+      
+      <div class="experiment-cards">
+        <div class="experiment-item">
+          <div class="exp-header">
+            <span class="exp-name">Meta title optimization on 5 blog posts</span>
+            <span class="exp-status active">Live → results</span>
+          </div>
+          
+          <!-- Experiment result screenshot -->
+          <div class="exp-image-container">
+            <img src="images/experiment-1-ga4-screenshot.jpg" alt="GA4 screenshot showing click increase over 3 weeks" class="exp-result-img" onerror="this.src='https://placehold.co/800x200/1e293b/3b82f6?text=GA4+Explorer+Report:+Clicks+Over+Time'">
+            <div class="exp-img-caption">GA4 Explorer view: Organic clicks before & after meta title change</div>
+          </div>
+          
+          <div class="exp-timeline">
+            <div class="timeline-labels">
+              <span>Week 1 (control)</span>
+              <span>Week 2 (after change)</span>
+              <span>Week 3</span>
+            </div>
+            <div class="timeline-bars">
+              <div class="bar-control" style="height: 32px;">182 clicks</div>
+              <div class="bar-change" style="height: 68px;">347 clicks</div>
+              <div class="bar-change" style="height: 72px;">389 clicks</div>
+            </div>
+          </div>
+          <div class="exp-result">
+            <a href="#" class="result-link">🔗 View full GA4 comparison & notes →</a>
+            <span class="impact-badge">+113% sustained lift</span>
+          </div>
+        </div>
+
+        <div class="experiment-item">
+          <div class="exp-header">
+            <span class="exp-name">Homepage CTA button color A/B test</span>
+            <span class="exp-status completed">Completed</span>
+          </div>
+          
+          <!-- A/B test visual result -->
+          <div class="exp-image-container ab-test">
+            <img src="images/ab-test-button-result.jpg" alt="A/B test comparison showing orange button outperforming blue" class="exp-result-img" onerror="this.src='https://placehold.co/800x200/1e293b/22c55e?text=A/B+Test:+Blue+2.1%25+CTR++|++Orange+3.9%25+CTR'">
+            <div class="exp-img-caption">Optimize experiment results: Orange button won with 86% improvement</div>
+          </div>
+          
+          <div class="exp-timeline">
+            <div class="timeline-labels">
+              <span>Week 1 (blue)</span>
+              <span>Week 2 (orange)</span>
+            </div>
+            <div class="timeline-bars">
+              <div class="bar-control" style="height: 28px;">2.1% CTR</div>
+              <div class="bar-change" style="height: 52px;">3.9% CTR</div>
+            </div>
+          </div>
+          <div class="exp-result">
+            <a href="#" class="result-link">🔗 Experiment results & GA4 screenshot →</a>
+            <span class="impact-badge">+86% CTR improvement</span>
+          </div>
+        </div>
+
+        <div class="experiment-item">
+          <div class="exp-header">
+            <span class="exp-name">Added internal linking from old post to new pillar page</span>
+            <span class="exp-status active">In progress</span>
+          </div>
+          
+          <!-- Internal linking impact chart -->
+          <div class="exp-image-container">
+            <img src="images/internal-linking-impact.jpg" alt="Internal linking impact chart showing page view growth" class="exp-result-img" onerror="this.src='https://placehold.co/800x200/1e293b/f59e0b?text=Page+Views:+64→118→203+over+2+weeks'">
+            <div class="exp-img-caption">GA4 page view trend after adding 12 internal links</div>
+          </div>
+          
+          <div class="exp-timeline">
+            <div class="timeline-labels">
+              <span>Before linking</span>
+              <span>Week 1 after</span>
+              <span>Week 2 after</span>
+            </div>
+            <div class="timeline-bars">
+              <div class="bar-control" style="height: 24px;">64 views</div>
+              <div class="bar-change" style="height: 41px;">118 views</div>
+              <div class="bar-change" style="height: 56px;">203 views</div>
+            </div>
+          </div>
+          <div class="exp-result">
+            <a href="#" class="result-link">🔗 Live GA4 report link →</a>
+            <span class="impact-badge tracking">Tracking until Day 21</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tracker-footer">
+        <p>📸 <strong>All images shown above are placeholders.</strong> Replace <code>src="images/your-file.jpg"</code> with your actual GA4 screenshots, custom infographics, and experiment result charts.</p>
+        <p>💡 <strong>Pro tip:</strong> Export GA4 charts as PNG, or use Looker Studio to create branded visualizations. Upload them to your server's <code>/images/</code> folder.</p>
+      </div>
+    </div>
+
+    <!-- Manual update checklist -->
+    <div class="update-note">
+      <p>✍️ <strong>Weekly update checklist:</strong> Replace placeholder images with new GA4 screenshots → Update numbers in annotations & experiment bars → Change infographic text → Upload new custom graphics</p>
+    </div>
+  </div>
+</section>
+  
+        
+    
 
     <footer>
         <div class="container">
             <div class="footer-links">
                 <a href="index.html">Home</a>
                 <a href="topics.html">Topics</a>
-                <a href="notes.html">Notes</a>
-                <a href="glossary.html">Glossary</a>
-                <a href="resources.html">Resources</a>
+                <a href="notes.html">Designs</a>
+                <a href="glossary.html">Analytics</a>
+                <a href="resources.html">Experiments</a>
                 <a href="about.html">About</a>
             </div>
-            <p class="copyright">&copy; 2023 StudyHub. All rights reserved. | This website is for educational purposes.
+            <p class="copyright">&copy; Karthickology | This website is for educational purposes.
             </p>
         </div>
     </footer>
